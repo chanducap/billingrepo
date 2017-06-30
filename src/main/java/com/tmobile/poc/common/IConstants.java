@@ -11,13 +11,6 @@ public interface IConstants {
 	public static final String CREDIT_ADJUSTMENT_STR = "Credit Adjustment";
 	public static final String DEBIT_ADJUSTMENT_STR = "Debit Adjustment";
 	public static final String PAYMENT_STR = "Payment";
-	
-	//Database
-	public static final String ACTIVE_STR = "Active";
-	public static final String INACTIVE_STR = "InActive";
-
-	public static final int ACTIVE = 1;
-	public static final int INACTIVE = 2;
 
 
 }

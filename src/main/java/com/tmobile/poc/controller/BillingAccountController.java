@@ -29,6 +29,7 @@ public class BillingAccountController {
 	@ApiResponses(value = {
 			@ApiResponse(code = HttpURLConnection.HTTP_OK, message = "Customer Billing Information is fetched Sucessfully!"),
 			@ApiResponse(code = HttpURLConnection.HTTP_BAD_REQUEST, message = "Error Occurred while processing the request! ") })
+
 	@GetMapping(value = "/v1/billing/account/info/{phoneNumber}", produces = "application/json")
 	public ResponseEntity<?> getAccountBalance(
 			@PathVariable(required = true, value = "phoneNumber") String phoneNumber) {
@@ -39,7 +40,7 @@ public class BillingAccountController {
 		}
 	}
 
-	@ApiOperation(value = "This method is used for updating the Customer Billing Account Balances!.")
+	@ApiOperation(value = "This method is used for updating the Customer Billing Account Balance based on the transaction type!.")
 	@ApiResponses(value = {
 			@ApiResponse(code = HttpURLConnection.HTTP_OK, message = "Customer Balance Information is updated Sucessfully!"),
 			@ApiResponse(code = HttpURLConnection.HTTP_BAD_REQUEST, message = "Error Occurred while processing the request! ") })

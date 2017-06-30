@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @Component
 @JsonInclude(value = Include.NON_NULL)
-public class AccountBalanceVO implements Serializable {
+public class AccountBalanceVO   implements Serializable {
 
 	/**
 	 * 
