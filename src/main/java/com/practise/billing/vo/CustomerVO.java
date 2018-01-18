@@ -1,4 +1,4 @@
-package com.tmobile.poc.vo;
+package com.practise.billing.vo;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.tmobile.poc.common;
+package com.practise.billing.common;
 
 public interface IConstants {
 

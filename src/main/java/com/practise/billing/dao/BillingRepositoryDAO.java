@@ -1,4 +1,4 @@
-package com.tmobile.poc.dao;
+package com.practise.billing.dao;
 
 import javax.transaction.Transactional;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
-import com.tmobile.poc.vo.BillingAccountSummaryVO;
+import com.practise.billing.vo.BillingAccountSummaryVO;
 
 public interface BillingRepositoryDAO extends CrudRepository<BillingAccountSummaryVO, Integer> {
 

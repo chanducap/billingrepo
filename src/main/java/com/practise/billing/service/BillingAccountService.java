@@ -1,4 +1,4 @@
-package com.tmobile.poc.service;
+package com.practise.billing.service;
 
 import java.util.logging.Logger;
 
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.tmobile.poc.common.IConstants;
-import com.tmobile.poc.dao.BillingRepositoryDAO;
-import com.tmobile.poc.vo.BillingAccountSummaryVO;
-import com.tmobile.poc.vo.CustomerVO;
+import com.practise.billing.common.IConstants;
+import com.practise.billing.dao.BillingRepositoryDAO;
+import com.practise.billing.vo.BillingAccountSummaryVO;
+import com.practise.billing.vo.CustomerVO;
 
 @Service
 public class BillingAccountService {
